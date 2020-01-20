@@ -1,0 +1,17 @@
+<style>
+	b{
+		background-color:red;
+	}
+
+</style>
+
+<script>
+	function proberen(){
+		alert();
+	}
+</script>
+
+
+test<b onclick=proberen() >test</b>
+
+nog een stuk tekst <textarea cols=250 readonly></textarea>

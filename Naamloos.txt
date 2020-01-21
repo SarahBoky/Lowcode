@@ -15,3 +15,5 @@
 test<b onclick=proberen() >test</b>
 
 nog een stuk tekst <textarea cols=250 readonly></textarea>
+
+<a href=galgje.html > galgje </a>

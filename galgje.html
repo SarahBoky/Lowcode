@@ -1,0 +1,36 @@
+<html>
+<head>
+<script>
+	var aantalpogingen = 0;
+	function raden(){
+		var deDOM = document.getElementsByTagName("html");
+		console.log(deDOM) ;
+		var x = document.getElementById("geradenletter").value;
+		var uitkomst = document.getElementById("uitkomstdiv");
+
+		if( x == "f" || x == "i" || x == "e" || x == "t" || x == "s"){
+			uitkomst.innerHTML = "goed";
+			uitkomst.style.backgroundColor = "green";
+		} else {
+			uitkomst.innerHTML = "fout";
+			uitkomst.style.backgroundColor = "red";
+			aantalpogingen++;
+			if(aantalpogingen > 9){
+				alert("Game over");
+			}
+		}
+
+	}
+</script>
+</head>
+<body>
+Galgje
+
+<img src=galgje.jpg >
+<br>
+<div>.....</div>
+<input id=geradenletter value=beginnen >
+<input value=raden type=button onclick=raden() >
+<div id=uitkomstdiv>uitkomst</div> 
+</body>
+</html>

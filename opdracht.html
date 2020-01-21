@@ -1,0 +1,22 @@
+<html>
+<script>
+
+
+</script>
+Boodschappen
+<br>
+<button id="Brood" onclick="Brood toegevoegd()">Brood</button>
+<br>
+<button id="Melk" onclick="Melk toegevoegd()">Melk</button>
+<br>
+<button id="Kaas" onclick="Kaas toegevoegd()">Kaas</button>
+
+<form oninput="x.value=parseInt(Brood.value)+parseInt(Melk.value)+parseInt(Kaas.value)">
+<input type="number" id="Brood" value="1">
++<input type="number" id="Melk" value="1,50">
++<input type="number" id="Kaas" value="0,50">
+=<output name="x" for="Brood Melk Kaas"></output>
+</form>
+
+</html>
+
